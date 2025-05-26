@@ -1,0 +1,177 @@
+@import url(./Cleaner.css);
+
+
+/* font-family */
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* ========= */
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header_logo_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.liv_watch_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    cursor: pointer;
+
+
+}
+
+.liveText {
+    color: #7F2A28;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.signIn_login_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button_all{
+    width: 157px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: #AB8C49;
+    border: 1px solid #AB8C49;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    box-shadow: 2px 4px 6px 0px rgba(79, 79, 79, 0.15);
+    transition: all ease-in-out .1s;
+
+}
+
+.button_all a{ 
+    color:  #ffffff;
+}
+
+.button_all:active {
+
+    transform: scale(.9);
+}
+
+/* .signIn_button {} */
+
+/* .logIn_button {}  */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 0 20px;
+
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.menu_main {
+    margin-top: 30px;
+    height: 60px;
+    background-color: #2B5038;
+
+}
+
+.ul_all {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.li_all{
+    padding: 14px 20px;
+    transition: all ease-in-out .1s;
+}
+
+.li_all:hover {
+    background-color: #BE0000;
+    border-radius: 10px;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+
+    background-color: #ffffff;
+    padding: 0 20px 0 0px ;
+    border-radius: 50px;
+
+}
+
+.search_input {
+
+    color: rgb(56, 56, 56);
+    padding: 10px;    
+    width: 170px;
+}
+
+.search_input::placeholder {
+    color: grey;
+
+}
+
+.search_bar img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.footer {}
